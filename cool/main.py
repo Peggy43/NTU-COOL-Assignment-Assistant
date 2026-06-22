@@ -9,6 +9,9 @@ from sync import sync_ntu_cool, login
 from db import init_db, seed_courses
 
 def main():
+    
+    data_dir = PROJECT_ROOT / "data"
+    data_dir.mkdir(exist_ok=True)
     login()
     print("初始化資料庫...")
     init_db()
