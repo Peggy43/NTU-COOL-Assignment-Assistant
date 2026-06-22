@@ -142,7 +142,7 @@ Focus Log Analysis
 ### 1. Clone Repository
 
 ```bash
-git clone 
+git clone https://github.com/Peggy43/NTU-COOL-Assignment-Assistant.git
 cd cool
 ```
 
